@@ -1,0 +1,26 @@
+First time user (normal user): 
+find folder "dist" in the project repository and run file "run.exe"
+The program will ask you to select a repository of input files. You can select folder "test_input" for this. 
+After loading input files you can create an excel. Excel "Eseries_combined.xlsx" will be created in the repository of the run.exe file.
+
+
+
+Developer first time user:
+Use the built-in venv module to create a virtual environment:
+1) open command screen and navigate to the project repository
+2) create a new virtual environment by running command >python -m venv venv_name   (change name to the name you want)
+3) that should have created a new folder in the project repository.
+4) make the environment active by going to the folder, subfolder scripts, and run command >activate.bat  (now the venv is active)
+5) install all the necesary libraries: navigate back to the project repository and run >pip install -r requirements.txt
+
+run the program:
+by run the main script "run.py" by navigating to project repository and running command >python run.py. 
+The program will ask you to select a repository of input files. You can select folder "test_input" for this. 
+After loading input files you can create an excel. Excel "Eseries_combined.xlsx" will be created in project repository
+
+run unittests:
+by running either >python test_AllUnittest.py 
+or if you want coverage report: >coverage run test_AllUnittest.py   and then afterwards >coverage html
+
+see file read_the_docs.pdf for more in-depth information and background
+

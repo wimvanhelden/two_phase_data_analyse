@@ -1,0 +1,9 @@
+venv_tp/
+build/
+htmlcov/
+input/
+eindwerktodo.txt
+config_data.py
+*.spec
+*.pyc
+*.coverage
